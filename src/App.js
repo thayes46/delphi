@@ -54,7 +54,7 @@ class App extends React.Component {
     //tag on key
     url = url + "pageSize=100&apiKey="
     url = url + API_KEY;
-    console.log(url)
+    //console.log(url)
     //get json from API hit and update articles to be displayed accordingly
     fetch(url)
       .then(
