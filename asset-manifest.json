@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.46c13aa3.chunk.css",
-    "main.js": "/static/js/main.c041b6be.chunk.js",
-    "main.js.map": "/static/js/main.c041b6be.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.356a7777.js",
-    "runtime-main.js.map": "/static/js/runtime-main.356a7777.js.map",
-    "static/js/2.1f0590f0.chunk.js": "/static/js/2.1f0590f0.chunk.js",
-    "static/js/2.1f0590f0.chunk.js.map": "/static/js/2.1f0590f0.chunk.js.map",
-    "static/js/3.32b071f3.chunk.js": "/static/js/3.32b071f3.chunk.js",
-    "static/js/3.32b071f3.chunk.js.map": "/static/js/3.32b071f3.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.46c13aa3.chunk.css.map": "/static/css/main.46c13aa3.chunk.css.map",
-    "static/js/2.1f0590f0.chunk.js.LICENSE.txt": "/static/js/2.1f0590f0.chunk.js.LICENSE.txt"
+    "main.css": "/delphi/static/css/main.46c13aa3.chunk.css",
+    "main.js": "/delphi/static/js/main.c041b6be.chunk.js",
+    "main.js.map": "/delphi/static/js/main.c041b6be.chunk.js.map",
+    "runtime-main.js": "/delphi/static/js/runtime-main.63b6db6c.js",
+    "runtime-main.js.map": "/delphi/static/js/runtime-main.63b6db6c.js.map",
+    "static/js/2.1f0590f0.chunk.js": "/delphi/static/js/2.1f0590f0.chunk.js",
+    "static/js/2.1f0590f0.chunk.js.map": "/delphi/static/js/2.1f0590f0.chunk.js.map",
+    "static/js/3.32b071f3.chunk.js": "/delphi/static/js/3.32b071f3.chunk.js",
+    "static/js/3.32b071f3.chunk.js.map": "/delphi/static/js/3.32b071f3.chunk.js.map",
+    "index.html": "/delphi/index.html",
+    "static/css/main.46c13aa3.chunk.css.map": "/delphi/static/css/main.46c13aa3.chunk.css.map",
+    "static/js/2.1f0590f0.chunk.js.LICENSE.txt": "/delphi/static/js/2.1f0590f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.356a7777.js",
+    "static/js/runtime-main.63b6db6c.js",
     "static/js/2.1f0590f0.chunk.js",
     "static/css/main.46c13aa3.chunk.css",
     "static/js/main.c041b6be.chunk.js"
