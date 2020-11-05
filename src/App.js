@@ -105,25 +105,29 @@ class App extends React.Component {
     for (var key3 in this.state.ReturnedArticles) {
       SearchResults.push(
         <div className="searchResultDiv" key={key3}>
+          
+          
+            {
+              //conditional to prevent default image popping up
+              this.state.ReturnedArticles[key3].queryResultPicture !== "null" && this.state.ReturnedArticles[key3].queryResultPicture !== "" ? (
+            <div className="imageContainer">
+            <img src={this.state.ReturnedArticles[key3].queryResultPicture} alt="Whoops! Your browser couldn't open this image" />
+            </div>
+            ) : null
+          }
           <h3>
             <a href={this.state.ReturnedArticles[key3].queryResultPageFullURL} target="_blank" rel="noreferrer">
             {this.state.ReturnedArticles[key3].queryResultPageTitle}
             </a>
           </h3>
           <p className="date" dangerouslySetInnerHTML={{__html: this.state.ReturnedArticles[key3].queryResultPageDate}}></p>
+          
+          
           <span className='link'>
             <a href={this.state.ReturnedArticles[key3].queryResultPageFullURL} target="_blank" rel="noreferrer">
             {this.state.ReturnedArticles[key3].queryResultPageFullURL}
             </a>
           </span>
-          <div className="imageContainer">
-            {
-              //conditional to prevent default image popping up
-              this.state.ReturnedArticles[key3].queryResultPicture !== "null" && this.state.ReturnedArticles[key3].queryResultPicture !== "" ? (
-            <img src={this.state.ReturnedArticles[key3].queryResultPicture} alt="Article" />
-            ) : null
-          }
-          </div>
           {
               //conditional to prevent null snippet popping up
               this.state.ReturnedArticles[key3].queryResultPageSnippet !== "null" ? (
