@@ -16,9 +16,12 @@ class App extends React.Component {
       //Search terms in search bar
       SearchTerms: '',
     }
+    
     //search terms var for backend
+    // eslint-disable-next-line
     var terms;
     //category for api hit
+    // eslint-disable-next-line
     var category;
   }
 
@@ -74,6 +77,7 @@ class App extends React.Component {
               queryResultPicture: "" + response.articles[key].urlToImage
             });
           }
+          // console.log(response.articles)
           pointerToThis.forceUpdate();
         }
       )      
@@ -113,9 +117,19 @@ class App extends React.Component {
             </a>
           </span>
           <div className="imageContainer">
+            {
+              //conditional to prevent default image popping up
+              this.state.ReturnedArticles[key3].queryResultPicture !== "null" && this.state.ReturnedArticles[key3].queryResultPicture !== "" ? (
             <img src={this.state.ReturnedArticles[key3].queryResultPicture} alt="Article" />
+            ) : null
+          }
           </div>
-          <p className="description" dangerouslySetInnerHTML={{__html: this.state.ReturnedArticles[key3].queryResultPageSnippet}}></p>
+          {
+              //conditional to prevent null snippet popping up
+              this.state.ReturnedArticles[key3].queryResultPageSnippet !== "null" ? (
+            <p className="description" dangerouslySetInnerHTML={{__html: this.state.ReturnedArticles[key3].queryResultPageSnippet}}></p>
+            ) : null
+          }
         </div>
       );
     }
