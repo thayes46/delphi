@@ -12,6 +12,7 @@ Selected applicants from the first round of applications were provided the follo
 > - Entertainment 
 > - Sports
 > - Technology
+
 > Imagine you had the chance to create a web application that would allow users to search through global news in order to locate news pertaining to the three categories listed above. How would you go about creating such an app?
 
 Additionally, we were provided a business API key for [newsAPI](https://newsapi.org) for querying articles, and asked to use the 
