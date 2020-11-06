@@ -35,6 +35,8 @@ Overall I wouldn't put webdev on my resume by any means, but I learned enough ab
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project has only been tested on Ubuntu 18.04 LTS and Ubuntu 20.04 LTS.
+
 ## Initial setup
 
 1. Clone the repository using your desired method or with:
