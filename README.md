@@ -15,8 +15,8 @@ Selected applicants from the first round of applications were provided the follo
 
 >Imagine you had the chance to create a web application that would allow users to search through global news in order to locate news pertaining to the three categories listed above. How would you go about creating such an app?
 
-Additionally, we were provided a business API key for [newsAPI](https://newsapi.org) for querying articles, and asked to use the 
-`top headlines` endpoint. For obvious reasons this key has been obfuscated from the source code.
+Additionally, I used the provided business API key for [newsAPI](https://newsapi.org) for querying articles, and the 
+`top-headlines` endpoint to allow categorical searches. For obvious reasons this key has been obfuscated from the source code.
 
 ## My Approach + Challenges faced
 
