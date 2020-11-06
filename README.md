@@ -6,21 +6,22 @@ Documentation for how to run and deploy Delphi can be seen [below](https://githu
 
 ## The Challenge
 
-Selected applicants from the first round of applications were provided the following prompt:\
+Selected applicants from the first round of applications were provided the following prompt:
 
-> The internet is an unlimited source of information. We want an easy way to sort through and find news articles specific to the following three categories: \
-> - Entertainment \
-> - Sports\
-> - Technology\
-> - Imagine you had the chance to create a web application that would allow users to search through global news in order to locate news pertaining to the three categories listed above. How would you go about creating such an app?\
+> The internet is an unlimited source of information. We want an easy way to sort through and find news articles specific to the following three categories: 
+> - Entertainment 
+> - Sports
+> - Technology
+> Imagine you had the chance to create a web application that would allow users to search through global news in order to locate news pertaining to the three categories listed above. How would you go about creating such an app?
 
-Additionally, we were provided a business API key for [newsAPI](https://newsapi.org) for querying articles, and asked to use the `top headlines` endpoint. For obvious reasons this key has been obfuscated from the source code.
+Additionally, we were provided a business API key for [newsAPI](https://newsapi.org) for querying articles, and asked to use the 
+`top headlines` endpoint. For obvious reasons this key has been obfuscated from the source code.
 
 ## My Approach + Challenges faced
 
-This is my first attempt at web development in any capacity, so my process was not nearly as clean or straightforward as it could have been or will be in the future.\
+This is my first attempt at web development in any capacity, so my process was not nearly as clean or straightforward as it could have been or will be in the future.
 
-Most of my experience with Software Engineering has been through Java, Python, and C, so my first step in approaching this problem was exploring my many different options for frameworks. Initially I thought that Django and Python would be my best friend, however I found within a few hours that while I was comfortable setting up the backend, it would take too long for establishing a good front end. \
+Most of my experience with Software Engineering has been through Java, Python, and C, so my first step in approaching this problem was exploring my many different options for frameworks. Initially I thought that Django and Python would be my best friend, however I found within a few hours that while I was comfortable setting up the backend, it would take too long for establishing a good front end. 
 
 After deciding on ReactJS as a framework for it's plethora of examples and tutorials on getting apps up and running quickly, I was able to find [a tutorial on a Wikipedia search engine built in react](https://github.com/simonjsuh/Wikipedia-Search-API-using-React.js). From there I was able to approach my next problem: talking to an API.
 
@@ -33,6 +34,18 @@ Overall I wouldn't put webdev on my resume by any means, but I learned enough ab
 # Getting Started with Delphi
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Initial setup
+
+1. Clone the repository using your desired method or with:
+
+`git clone https://github.com/thayes46/delphi.git`
+
+2. Download and install Node.js using your desired method or [their tutorial](https://nodejs.org/en/download/package-manager/)
+
+3. Install npm with `npm install` in the project directory
+
+Note: If you receive error code `127` "c" now or when running any below scripts, delete /node_modules/ as well as package-lock.json, run `npm upgrade`, and you should be good to go. If not, feel free to email me.
 
 ## Available Scripts
 
